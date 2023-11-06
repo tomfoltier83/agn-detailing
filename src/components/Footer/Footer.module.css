@@ -1,0 +1,100 @@
+.footer {
+    background-color: #AC8F8F;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.footerMenu {
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-weight: 600;
+}
+
+.footerMenu a::after {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.2s ease-in-out, left 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.footerMenu a:hover::after {
+    width: 100%;
+    left: 50%;
+}
+
+
+.paymentMethods {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer li img {
+    width: 30px;
+}
+
+.footer h5 a {
+    color: #601E1E;
+}
+
+@media screen and (max-width:767.98px) {
+    .footerMenu {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .footer p {
+        padding: 10px 0px;
+    }
+
+    .footerMenu a {
+        margin: auto;
+        padding: 10px 0px;
+    }
+
+    .footer li {
+        padding: 8px 10px;
+    }
+    .footer h5 {
+        padding-top: 5px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .footerMenu {
+        flex-direction: row;
+        padding: 20px 0px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .footer p {
+        padding: 20px 0 5px 0;
+    }
+
+    .footer li {
+        padding: 0px 30px;
+    }
+
+    .footerMenu a {
+        width: 33.333%;
+    }
+    .footer h5 {
+        padding-top: 20px;
+    }
+}

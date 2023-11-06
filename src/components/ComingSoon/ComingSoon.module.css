@@ -1,0 +1,69 @@
+.comingSoon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', sans-serif;
+    padding: 0 20px;
+    background-image: url(../../../public/images/forestRoad.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .headline {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0.5em 0;
+  }
+  
+  .subTitle {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .notice {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  
+  .comingSoon a{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 17px;
+    position: relative;
+    transition: all .3s ease;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+
+.comingSoon a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    transition: width .3s ease-in-out,left .3s ease-in-out;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.comingSoon a:hover{
+    color: #c11621;
+}
+
+.comingSoon a:hover::before{
+    width: 100%;
+}
