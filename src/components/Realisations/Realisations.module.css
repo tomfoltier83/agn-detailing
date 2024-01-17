@@ -97,7 +97,8 @@
 }
 
 .waveSeparator svg {
-  bottom: 10px;
+  bottom: 0;
+  top: 0;
 }
 
 @media screen and (max-width: 767.98px) {
