@@ -40,7 +40,7 @@
         flex-direction: column;
         gap: 20px;
         height: 70vh;
-        transform: translateY(-15%);
+        transform: translateY(-10%);
         align-items: center;
         margin-bottom: -10%;
     }

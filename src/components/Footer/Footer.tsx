@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <ul className={styles.footerMenu}>
         <li>
-          <a href="comingSoon">Nos réalisations</a>
+          <a href="gallery">Nos réalisations</a>
         </li>
         <li>
           <a href="comingSoon">Nos produits</a>
