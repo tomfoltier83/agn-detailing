@@ -1,0 +1,75 @@
+.gallery {
+  width: 100%;
+  background-color: #601e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery h1 {
+  color: white;
+  text-align: center;
+  padding: 40px 0 10px 0;
+}
+
+.logo {
+    height: auto;
+}
+
+.images {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.galleryImage {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 25px 20px -20px;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 10px;
+  margin: 30px;
+}
+.goBack {
+  padding-bottom: 40px;
+}
+
+.goBack a {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 20px 60px;
+  font-size: 20px;
+  background: rgb(46, 42, 42);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.goBack a:hover {
+  color: rgb(46, 42, 42);
+  background: white;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 767.98px) {
+    .logo {
+        width: 200px;
+    }
+    .galleryImage {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 250px;
+    }
+    .galleryImage {
+        width: 25%;
+    }
+}

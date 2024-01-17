@@ -39,7 +39,7 @@
     justify-content: center;
 }
 
-.buttonsOverlay button{
+.buttonsOverlay button, .buttonsOverlay a{
     color: white;
     background: transparent;
     border: 1px solid white;
@@ -54,7 +54,7 @@
     overflow: hidden;
 }
 
-.buttonsOverlay button::before{
+.buttonsOverlay button::before, .buttonsOverlay a::before{
     content: "";
     position: absolute;
     bottom: 0;
@@ -67,15 +67,15 @@
     z-index: -1;
 }
 
-.buttonsOverlay button:hover{
+.buttonsOverlay button:hover, .buttonsOverlay a:hover{
     color: #c11621;
 }
 
-.buttonsOverlay button:hover::before{
+.buttonsOverlay button:hover::before, .buttonsOverlay a:hover::before{
     width: 100%;
 }
 
-.buttonsOverlay button i {
+.buttonsOverlay button i, .buttonsOverlay a i {
     margin-left: 5px;
 }
 
@@ -110,6 +110,7 @@
         width: 100%;
         gap: 20px;
         padding-top: 30px;
+        text-align: center;
     }
 }
 

@@ -19,7 +19,7 @@ export default function Footer() {
           <a href="comingSoon">Mentions légales</a>
         </li>
       </ul>
-      <p>©2023, AGN Detailing</p>
+      <p>©2024, AGN Detailing</p>
       <ul className={styles.paymentMethods}>
         <li>
           <Image src={applePay} alt={""} />
