@@ -50,17 +50,20 @@ export default function Contact() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.subTitle}>
+      <div className={styles.subTitle} id="contact">
         <h1>Besoin d'un devis personnalisé ?</h1>
         <h3>D'un rendez-vous ?</h3>
-        <p>Appelez-nous ou laissez-nous un message, notre équipe se chargera de votre demande dans les plus brefs délais.</p>
+        <p>
+          Appelez-nous ou laissez-nous un message, notre équipe se chargera de
+          votre demande dans les plus brefs délais.
+        </p>
         {/* <h3>Ou besoin d'informations supplémentaires ?</h3>
         <p>
           Contactez-nous ci-dessous, notre équipe se chargera de votre demande
           dans les plus brefs délais.
         </p> */}
       </div>
-      <div className={styles.title} id="contact">
+      <div className={styles.title}>
         <h2>- 06 22 95 44 07 -</h2>
       </div>
       <div className={styles.content}>
