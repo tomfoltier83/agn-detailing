@@ -49,7 +49,7 @@ export default function Contact() {
   };
 
   return (
-    <div className={styles.container} id="contact">
+    <div className={styles.container}>
       <div className={styles.subTitle}>
         <h1>Besoin d'un devis personnalisé ?</h1>
         <h3>D'un rendez-vous ?</h3>
@@ -60,7 +60,7 @@ export default function Contact() {
           dans les plus brefs délais.
         </p> */}
       </div>
-      <div className={styles.title}>
+      <div className={styles.title} id="contact">
         <h2>- 06 22 95 44 07 -</h2>
       </div>
       <div className={styles.content}>
