@@ -3,8 +3,6 @@ import styles from "./MainVideo.module.css";
 import Logo from "../../../public/images/logoWhiteWithoutBackground.png";
 import Image from "next/image";
 
-//TODO ajouter point forts: 5ans d'expérience/ +200 véhicules nettoyés/ 100% clients satisfaits
-
 const MainVideo = () => {
 
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, section: string) => {
