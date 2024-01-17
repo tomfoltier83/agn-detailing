@@ -23,15 +23,19 @@
   justify-content: center;
   padding-bottom: 20px;
 }
-
-.galleryImage {
+.galleryImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.55) 0px 25px 20px -20px;
-  background-size: cover;
-  background-position: center;
-  height: 300px;
   border-radius: 10px;
   margin: 30px;
+  overflow: hidden;
+}
+.galleryImage {
+
 }
 .goBack {
   padding-bottom: 40px;
@@ -60,7 +64,7 @@
     .logo {
         width: 200px;
     }
-    .galleryImage {
+    .galleryImageContainer {
         width: 100%;
     }
 }
@@ -69,7 +73,7 @@
     .logo {
         width: 250px;
     }
-    .galleryImage {
+    .galleryImageContainer {
         width: 25%;
     }
 }
