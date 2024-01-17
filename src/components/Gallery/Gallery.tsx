@@ -3,6 +3,7 @@ import styles from "./Gallery.module.css";
 import Footer from "../Footer/Footer";
 import Image from "next/image";
 import logo from "../../../public/images/logoWhiteWithoutBackground.png"
+import Link from "next/link";
 
 export default function Gallery() {
   let images = [];
@@ -22,7 +23,7 @@ export default function Gallery() {
       <Image src={logo} alt={""} className={styles.logo}/>
       <div className={styles.images}>{images}</div>
       <div className={styles.goBack}>
-          <a href="/">Retour</a>
+          <Link href="/">Retour</Link>
         </div>
       <Footer/>
     </div>

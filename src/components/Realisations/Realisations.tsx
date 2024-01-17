@@ -33,8 +33,8 @@ function Realisations() {
           <h3 style={{ backgroundColor: "#601E1E" }}>Quelques réalisations</h3>
         </div>
         <ul className={styles.beforeAfterList}>
-          {beforeAfterImages.map((images) => {
-            return <ImageSwitch images={images} />;
+          {beforeAfterImages.map((images, index) => {
+            return <ImageSwitch images={images} key={index}/>;
           })}
         </ul>
         <div className={styles.seeMore}>
