@@ -8,7 +8,7 @@ import ImagesWithShadow from "../ImagesWithShadow/ImagesWithShadow";
 
 const MainVideo = () => {
 
-  const scrollToSection = (e, section) => {
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, section: string) => {
     e.preventDefault(); 
     const contactSection = document.getElementById(section);
     if (contactSection) {
