@@ -5,6 +5,8 @@ import Image from "next/image";
 import logo from "../../../public/images/logoWhiteWithoutBackground.png"
 import Link from "next/link";
 
+//TODO: change images showing system
+
 export default function Gallery() {
   let images = [];
 
