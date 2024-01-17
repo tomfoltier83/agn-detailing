@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./MainVideo.module.css";
 import Logo from "../../../public/images/logoWhiteWithoutBackground.png";
 import Image from "next/image";
-import ImagesWithShadow from "../ImagesWithShadow/ImagesWithShadow";
 
 //TODO ajouter point forts: 5ans d'expérience/ +200 véhicules nettoyés/ 100% clients satisfaits
 
