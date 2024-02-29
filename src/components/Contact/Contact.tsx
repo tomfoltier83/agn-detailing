@@ -113,7 +113,7 @@ export default function Contact() {
         </form> */}
         <div className={styles.contactMap}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22889.555083655996!2d6.624397903019897!3d43.31821164485889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ceb8e7dd476af9%3A0x5cfb0561cd15de30!2s91%20Rte%20Jean%20Corona%2C%2083120%20Sainte-Maxime!5e0!3m2!1sfr!2sfr!4v1640344026180!5m2!1sfr!2sfr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.4272068312075!2d6.615395176541553!3d43.326248773515374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ceb85428d002cb%3A0xfc4676186774cadf!2s164%20Rte%20du%20Plan%20de%20la%20Tour!5e0!3m2!1sen!2sfr!4v1709243820091!5m2!1sen!2sfr"
             style={{
               border: 0,
               borderRadius: "10px",
