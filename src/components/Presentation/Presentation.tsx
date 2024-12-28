@@ -10,7 +10,7 @@ export default function Presentation() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.separator}>
+      <div className={styles.separator}> 
         <svg
           viewBox="0 0 1000 100"
           xmlns="http://www.w3.org/2000/svg"

@@ -7,6 +7,7 @@ import { useEffect, useRef } from "react";
 import Presentation from "../components/Presentation/Presentation";
 import Footer from "../components/Footer/Footer";
 import ImagesWithShadow from "../components/ImagesWithShadow/ImagesWithShadow";
+import Banner from "../components/Banner/Banner";
 
 export default function Home() {
   const mainRef = useRef<HTMLDivElement | null>(null);
@@ -20,6 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <Banner/>
         <MainVideo />
         <ImagesWithShadow/>
         <Presentation />
